@@ -8,6 +8,13 @@ In industries where knowledge retention is critical, especially in roles like da
 
 ---
 
+### 🧠 System Architecture for Agentic Knowledge Capture
+
+![System Architecture](docs/assets/system-architecture.png)
+
+---
+
+
 ## 🚀 Key Features
 
 * **LLM Fine-Tuning**: Models fine-tuned using LoRA, QLoRA, DoRA on domain-specific QA pairs.
@@ -24,6 +31,12 @@ In industries where knowledge retention is critical, especially in roles like da
 * Organizational knowledge base retention
 * Real-time expert simulation for training and upskilling
 * Educational platforms for domain learning
+
+---
+
+### 👩‍💼 LLM Expert Interaction Simulation
+
+![Expert Interaction](docs/assets/expert-llm-interaction.png)
 
 ---
 
@@ -92,8 +105,6 @@ To fairly assess the system we therefore introduce two complementary families of
 > *Quantity* (performance) metrics tell us **how efficiently** the system produces those questions.  
 > Both dimensions are required: a fast model that asks poor questions is as unusable as a slow model that asks brilliant ones.
 
-
-
 ---
 
 ## 🧪 Models Evaluated
@@ -108,6 +119,38 @@ To fairly assess the system we therefore introduce two complementary families of
 * **DeepSeek Chat (1.3B, Base)** – General-purpose model with 128K context window  
 * **DeepSeek R1 (1.3B, Fine-tuned)** – Fine-tuned for agentic KT simulation tasks
 * Note: All fine-tuned models were trained on synthetic question–answer pairs generated from project-specific knowledge transfer documents and role-based project scenarios.
+
+---
+
+
+## 🧪 Synthetic Data Generation
+
+To evaluate domain-specific LLM capabilities without relying on sensitive or real-world data, we generated synthetic QA pairs using a multi-step LLM-driven process.
+
+1. **Input Roles and Responsibilities**
+   - Job descriptions were scraped from LinkedIn for relevant data roles.
+   
+2. **Generate KT Documents**
+   - LLMs created knowledge transfer (KT) documents simulating realistic project contexts and artifacts.
+
+3. **Feed KT Documents**
+   - These documents served as input for QA generation prompts.
+
+4. **Generate QA Pairs**
+   - The system produced question-answer pairs to simulate knowledge queries for downstream evaluation.
+
+### 🎯 Why Synthetic Data?
+
+- Ensures **privacy and compliance** (no PII or proprietary data)
+- Enables **controlled benchmarking** of fine-tuned LLMs
+- Encourages **scalability** across domains with minimal manual effort
+
+---
+
+
+### 🔧 Fine-Tuning Workflow
+
+![Fine Tuning](docs/assets/fine-tuning.png)
 
 ---
 
