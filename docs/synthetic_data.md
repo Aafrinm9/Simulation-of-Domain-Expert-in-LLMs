@@ -41,7 +41,7 @@ To simulate realistic knowledge evaluation in specialized domains (e.g., data sc
 
 You can explore a sample set of job roles, generated KT documents, and QA pairs used for fine-tuning and evaluation.
 
-📁 [Download synthetic data sample](./sample_synthetic_data.zip)
+📁 [Download synthetic data sample](docs/assets/sample_synthetic_data.zip)
 
 Contents include:
 - Example KT documents
