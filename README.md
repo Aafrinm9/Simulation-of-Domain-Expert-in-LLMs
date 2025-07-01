@@ -122,31 +122,9 @@ To fairly assess the system we therefore introduce two complementary families of
 
 ---
 
-
-## 🧪 Synthetic Data Generation
-
-To evaluate domain-specific LLM capabilities without relying on sensitive or real-world data, we generated synthetic QA pairs using a multi-step LLM-driven process.
-
-1. **Input Roles and Responsibilities**
-   - Job descriptions were scraped from LinkedIn for relevant data roles.
-   
-2. **Generate KT Documents**
-   - LLMs created knowledge transfer (KT) documents simulating realistic project contexts and artifacts.
-
-3. **Feed KT Documents**
-   - These documents served as input for QA generation prompts.
-
-4. **Generate QA Pairs**
-   - The system produced question-answer pairs to simulate knowledge queries for downstream evaluation.
-
-### 🎯 Why Synthetic Data?
-
-- Ensures **privacy and compliance** (no PII or proprietary data)
-- Enables **controlled benchmarking** of fine-tuned LLMs
-- Encourages **scalability** across domains with minimal manual effort
+📄 [Read more on synthetic data generation](docs/synthetic_data.md)
 
 ---
-
 
 ### 🔧 Fine-Tuning Workflow
 
