@@ -10,7 +10,7 @@ In industries where knowledge retention is critical, especially in roles like da
 
 ### 🧠 System Architecture for Agentic Knowledge Capture
 
-![System Architecture](docs/assets/Data_extraction_and_Ingestion_pipeline.png)
+![System Architecture](docs/assets/system-architecture.png)
 
 ---
 
@@ -36,7 +36,7 @@ In industries where knowledge retention is critical, especially in roles like da
 
 ### 👩‍💼 LLM Expert Interaction Simulation
 
-![Expert Interaction](docs/assets/Solution_architecture.png)
+![Expert Interaction](docs/assets/expert-llm-interaction.png)
 
 ---
 
@@ -128,7 +128,7 @@ To fairly assess the system we therefore introduce two complementary families of
 
 ### 🔧 Fine-Tuning Workflow
 
-![Fine Tuning](docs/assets/Fine_tuning_methodology.png)
+![Fine Tuning](docs/assets/fine-tuning.png)
 
 ---
 
