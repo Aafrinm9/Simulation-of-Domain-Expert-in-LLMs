@@ -58,17 +58,15 @@ In industries where knowledge retention is critical, especially in roles like da
 ## 📁 Repository Structure
 
 ```
-📦 Simulation-of-Domain-Expert-LLM
-├── data/                      # Raw and processed data
-├── docs/                      # Final report, proposal, presentations
+Simulation-of-Domain-Expert-LLM
+├── docs/                     # Datasets for finetuning
+│   └── assets/
 ├── src/
-│   ├── data_pipeline/         # ETL scripts and data preparation
-│   ├── model/                 # Fine-tuning and RAG logic
-│   ├── abm_simulation/        # Agent definitions and Mesa simulations
-│   └── app/                   # Streamlit interface
-├── requirements.txt
+│   ├── abm_simulation/       # Agent definitions and Mesa simulations
+│   └── app/                  # Streamlit interface
+│   └── fine_tuned/           # Finetuned python codes for LoRA,QLoRA and DoRA
 ├── README.md
-└── LICENSE
+
 ```
 
 ---
